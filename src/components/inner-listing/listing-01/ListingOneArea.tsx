@@ -44,7 +44,7 @@ const ListingOneArea = () => {
       <div className="property-listing-six bg-pink-two pt-110 md-pt-80 pb-150 xl-pb-120 mt-150 xl-mt-120">
          <div className="container container-large">
             <div className="row">
-               <div className="col-lg-8">
+               <div className="col-lg-12">
                   <div className="ps-xxl-5">
                      <div className="listing-header-filter d-sm-flex justify-content-between align-items-center mb-40 lg-mb-30">
                         <div>Showing <span className="color-dark fw-500">{itemOffset + 1}–{itemOffset + currentItems.length}</span> of <span
@@ -75,7 +75,7 @@ const ListingOneArea = () => {
 
                      <div className="row gx-xxl-5">
                         {currentItems.map((item: any) => (
-                           <div key={item.id} className="col-md-6 d-flex mb-50 wow fadeInUp" data-wow-delay={item.data_delay_time}>
+                           <div key={item.id} className="col-md-4 d-flex mb-50 wow fadeInUp" data-wow-delay={item.data_delay_time}>
                               <div className="listing-card-one border-25 h-100 w-100">
                                  <div className="img-gallery p-15">
                                     <div className="position-relative border-25 overflow-hidden">
@@ -145,25 +145,7 @@ const ListingOneArea = () => {
                   </div>
                </div>
 
-               <div className="col-lg-4 order-lg-first">
-                  <div className="advance-search-panel dot-bg md-mt-80">
-                     <div className="main-bg">
-                        <DropdownOne
-                           handleSearchChange={handleSearchChange}
-                           handleBedroomChange={handleBedroomChange}
-                           handleBathroomChange={handleBathroomChange}
-                           handlePriceChange={handlePriceChange}
-                           maxPrice={maxPrice}
-                           priceValue={priceValue}
-                           handleResetFilter={handleResetFilter}
-                           selectedAmenities={selectedAmenities}
-                           handleAmenityChange={handleAmenityChange}
-                           handleLocationChange={handleLocationChange}
-                           handleStatusChange={handleStatusChange}
-                        />
-                     </div>
-                  </div>
-               </div>
+           
             </div>
          </div>
       </div>
