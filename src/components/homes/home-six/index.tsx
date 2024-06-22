@@ -20,8 +20,8 @@ const HomeSix = () => {
       <HeaderOne />
       <HeroBanner />
       <BLockFeatureOne />
-      <BLockFeatureFour />
       <PropertyTwo style={false} />
+      <BLockFeatureFour />
       <AddressBanner style={false} />
       <FancyBannerThree />
       <FooterFive />
