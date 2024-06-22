@@ -1,11 +1,11 @@
 import FooterFour from '@/layouts/footers/FooterFour'
-import HeaderFour from '@/layouts/headers/HeaderFour'
+import HeaderOne from '@/layouts/headers/HeaderOne'
 import ContactArea from './ContactArea'
 
 const Contact = () => {
    return (
       <>
-         <HeaderFour />
+         <HeaderOne />
          <ContactArea />
          <FooterFour />
       </>
