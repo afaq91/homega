@@ -58,7 +58,7 @@ const PropertyTwo = ({ style }: any) => {
    };
 
    return (
-      <div className="property-listing-four bg-pink-three position-relative z-1 overflow-hidden pt-120 xl-pt-80 pb-110 xl-pb-60 mt-170 xl-mt-140 lg-mt-120">
+      <div className="property-listing-four bg-pink-three position-relative z-1 overflow-hidden pt-120 xl-pt-80 pb-110 xl-pb-60 mt-0 xl-mt-140 lg-mt-120">
          <div className="container container-large">
             <div className="position-relative z-1">
                <div className="title-one mb-60 lg-mb-40 wow fadeInUp">
