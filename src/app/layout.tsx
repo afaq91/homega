@@ -11,15 +11,17 @@ export default function RootLayout({
 
   const isDev = process.env.NODE_ENV === 'development'
 
+  
+
   return (
     <html lang="en" suppressHydrationWarning={isDev}>
       <head>
         <meta name="keywords" content="Real estate, Property sale, Property buy" />
-        <meta name="description" content="Homy is a beautiful website template designed for Real Estate Agency." />
+        <meta name="description" content="Homega Real Estate Agency" />
         <meta property="og:site_name" content="Homy" />
-        <meta property="og:url" content="https://creativegigstf.com" />
+        <meta property="og:url" content="" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Homy - Real Estate React Next js Template" />
+        <meta property="og:title" content="Homega - Real Estate Agency" />
         <meta name='og:image' content='images/assets/ogg.png' />
         {/* For IE  */}
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

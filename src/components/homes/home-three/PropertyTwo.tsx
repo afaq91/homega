@@ -10,6 +10,7 @@ import propertyShape_1 from "@/assets/images/shape/shape_37.svg"
 import propertyShape_2 from "@/assets/images/shape/shape_38.svg"
 import propertyShape_3 from "@/assets/images/shape/shape_39.svg"
 
+
 const setting = {
    dots: false,
    arrows: false,

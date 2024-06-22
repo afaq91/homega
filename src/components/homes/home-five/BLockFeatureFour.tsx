@@ -18,8 +18,8 @@ const BLockFeatureFour = () => {
                         <div className="d-flex align-items-center mt-75 md-mt-50">
                            <Image src={featureImg_1} alt="" className="rounded-circle avatar" />
                            <div className="ps-4">
-                              <h6 className="fs-22 mb-5">James Bond.</h6>
-                              <span className="opacity-75">CEO & Head of Homy Inc</span>
+                              <h6 className="fs-22 mb-5">Lav Kumar.</h6>
+                              <span className="opacity-75">Head of Homega Real Estate</span>
                            </div>
                         </div>
                      </div>
@@ -28,13 +28,13 @@ const BLockFeatureFour = () => {
                         <div className="row">
                            <div className="col-sm-6">
                               <div className="counter-block-two dark mt-30">
-                                 <div className="main-count sm font-garamond fw-500"><span className="counter"><Count number={1200} /></span>+</div>
-                                 <p className="fs-20 m0">Project handover</p>
+                                 <div className="main-count sm font-garamond fw-500"><span className="counter"><Count number={100} /></span>+</div>
+                                 <p className="fs-20 m0">Projects handover</p>
                               </div>
                            </div>
                            <div className="col-sm-6">
                               <div className="counter-block-two dark mt-30">
-                                 <div className="main-count sm font-garamond fw-500"><span className="counter"><Count number={1.9} /></span>mil+</div>
+                                 <div className="main-count sm font-garamond fw-500"><span className="counter"><Count number={90} /></span>+</div>
                                  <p className="fs-20 m0">Happy customers</p>
                               </div>
                            </div>

@@ -6,6 +6,9 @@ export const metadata = {
   title: "Homega Real Estate",
 };
 const index = () => {
+
+
+
   return (
     <Wrapper>
       <HomeSix />

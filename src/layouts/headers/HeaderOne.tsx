@@ -2,18 +2,24 @@
 import NavMenu from "./Menu/NavMenu"
 import Link from "next/link"
 import Image from "next/image"
-import { useState } from "react"
 import UseSticky from "@/hooks/UseSticky"
 import LoginModal from "@/modals/LoginModal"
-
+import { useState } from "react"
+import { useEffect } from "react"
+import { useRouter } from 'next/router';
 import logo_1 from "@/assets/images/logo/logo_01.svg";
+
+
+
 
 const HeaderOne = ({ style }: any) => {
    const { sticky } = UseSticky();
+   
+ 
 
    return (
       <>
-         <header className={`theme-main-menu menu-overlay menu-style-one sticky-menu ${sticky ? "fixed" : ""}`}>
+         <header className={`theme-main-menu menu-overlay menu-style-one sticky-menu ${sticky ? "fixed" : ""}`} >
            
             <div className="inner-content gap-one">
                <div className="top-header position-relative">
@@ -25,11 +31,9 @@ const HeaderOne = ({ style }: any) => {
                      </div>
                      <div className="right-widget ms-auto ms-lg-0 me-3 me-lg-0 order-lg-3">
                         <ul className="d-flex align-items-center style-none">
-                           <li>
-                              <Link href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="btn-one"><i className="fa-regular fa-lock"></i> <span>Login</span></Link>
-                           </li>
+                           
                            <li className="d-none d-md-inline-block ms-3">
-                              <Link href="/dashboard/add-property" className="btn-two" target="_blank"><span>Add Listing</span> <i className="fa-thin fa-arrow-up-right"></i></Link>
+                              <Link href="/contact" className="btn-two"><span>Request A Free Consultation</span> <i className="fa-thin fa-arrow-up-right"></i></Link>
                            </li>
                         </ul>
                      </div>

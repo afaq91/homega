@@ -236,7 +236,7 @@ const feature_data: DataType[] = [
       icon: feature5Icon_1,
       title: "Find",
       btn: "Find Home",
-      desc: "Explore homy’s 2 million+ homes and uncover your ideal living space.",
+      desc: "Explore homega 100+ homes and uncover your ideal living space.",
    },
    {
       id: 2,
@@ -283,6 +283,7 @@ const feature_data: DataType[] = [
    },
 
    // home_4_feature_1
+   
 
    {
       id: 1,
@@ -290,7 +291,7 @@ const feature_data: DataType[] = [
       icon: feature6Icon_1,
       title: "Buy",
       btn: "Find Home",
-      desc: "Explore homy’s 2 million+ homes and uncover your ideal living space.",
+      desc: "Explore homega 100+ properties and uncover your ideal living space.",
    },
    {
       id: 2,
@@ -298,7 +299,7 @@ const feature_data: DataType[] = [
       icon: feature6Icon_2,
       title: "Rent",
       btn: "Rent Home",
-      desc: "Discover a rental you'll love on homy, thanks to 35+ filters and tailored keywords.",
+      desc: "Discover number of rental properties",
       data_delay_time: "0.1s",
    },
    {
@@ -307,7 +308,7 @@ const feature_data: DataType[] = [
       icon: feature6Icon_3,
       title: "Sell",
       btn: "Sell Property",
-      desc: "List, sell, thrive – with our top-notch real estate agency. It’s super easy & fun.",
+      desc: "Sell, Thrive – with our real estate agency.",
       data_delay_time: "0.2s",
    },
 

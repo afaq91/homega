@@ -10,9 +10,9 @@ const HeroBanner = () => {
          <div className="container container-large">
             <div className="position-relative">
                <div className="row">
-                  <div className="col-xxl-7 col-xl-6 col-lg-7">
+                  <div className="col-xxl-9 col-xl-6 col-lg-7">
                      <div className="position-relative pe-xxl-5 wow fadeInLeft">
-                        <h1 className="hero-heading">Best Real Estate Consultancy</h1>
+                        <h1 className="hero-heading">Unlock Your Real Estate<br></br> Potential with<br></br>Homega</h1>
                      </div>
                      <div className="ps-xxl-1 pt-35 wow fadeInRight">
                         <p className="color-dark sub-heading mb-40 lg-mb-20">Over 745,000 listings, apartments, lots and<br></br>plots available now!</p>
