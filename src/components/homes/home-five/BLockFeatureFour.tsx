@@ -47,8 +47,8 @@ const BLockFeatureFour = () => {
 
                <div className="col-lg-6">
                   <div className="media-gallery position-relative z-1 h-100 wow fadeInLeft">
-                     <div className="bg" style={{ backgroundImage: `url(/assets/images/media/image-ball.jpg)` }}>
-                        <Image src={featureImg_3} alt="" className="lazy-img screen_03" />
+                     <div className="bg" style={{ backgroundImage: `url(/assets/images/media/house-table-real-estate-agent.jpg)` }}>
+                        {/* <Image src={featureImg_3} alt="" className="lazy-img screen_03" /> */}
                       
                      </div>
                   </div>

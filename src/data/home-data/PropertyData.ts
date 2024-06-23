@@ -15,6 +15,10 @@ import property3Thumb_1 from "@/assets/images/listing/listing-1/image-1.jpeg";
 import property3Thumb_2 from "@/assets/images/listing/listing-2/image-1.jpg";
 import property3Thumb_3 from "@/assets/images/listing/listing-3/image-1.jpg";
 
+
+
+// Carousle Images
+
 import propertyLargThumb_1_1 from "@/assets/images/listing/listing-1/image-1.jpeg";
 import propertyLargThumb_1_2 from "@/assets/images/listing/listing-1/image-2.jpg";
 import propertyLargThumb_1_3 from "@/assets/images/listing/listing-1/image-3.jpg";
@@ -27,6 +31,17 @@ import propertyLargThumb_2_2 from "@/assets/images/listing/listing-2/image-2.jpg
 import propertyLargThumb_2_3 from "@/assets/images/listing/listing-2/image-3.jpg";
 import propertyLargThumb_2_4 from "@/assets/images/listing/listing-2/image-4.jpg";
 import propertyLargThumb_2_5 from "@/assets/images/listing/listing-2/image-5.jpg";
+
+
+
+import propertyLargThumb_3_1 from "@/assets/images/listing/listing-3/image-1.jpg";
+import propertyLargThumb_3_2 from "@/assets/images/listing/listing-3/image-2.jpg";
+import propertyLargThumb_3_3 from "@/assets/images/listing/listing-3/image-3.jpg";
+import propertyLargThumb_3_4 from "@/assets/images/listing/listing-3/image-4.jpg";
+import propertyLargThumb_3_5 from "@/assets/images/listing/listing-3/image-5.jpg";
+import propertyLargThumb_3_6 from "@/assets/images/listing/listing-3/image-6.jpg";
+
+
 
 
 
@@ -215,13 +230,14 @@ const property_data: DataType[] = [
       page: "home_3_property_2",
       tag: "FOR SELL",
       thumb:property3Thumb_3,
-      carousel_thumb: [{id:"4", img: propertyLargThumb_4}, {id:"6", img: propertyLargThumb_6 }, {id:"3", img: propertyLargThumb_3 }, {id:"2", img: propertyLargThumb_2 }],
+      carousel_thumb: [{id:"1", img: propertyLargThumb_3_1}, {id:"2", img: propertyLargThumb_3_2 }, {id:"3", img: propertyLargThumb_3_3 }, {id:"4", img: propertyLargThumb_3_4 }, {id:"5", img: propertyLargThumb_3_5 }],
       title: "Burj Vista tower",
       address: "Burj Vista tower",
       property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 2450 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o4 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o3 },],
       price: 55500,
-      carousel:"04",
+      carousel:"05",
    },
+   
    
 
    // home_5

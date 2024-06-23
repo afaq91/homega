@@ -11,7 +11,7 @@ import smallCarousel_2 from "@/assets/images/listing/img_44_s.jpg"
 import smallCarousel_3 from "@/assets/images/listing/img_45_s.jpg"
 import smallCarousel_4 from "@/assets/images/listing/img_46_s.jpg"
 
-const largeThumb: string[] = ["1", "2", "3"];
+const largeThumb: string[] = ["1", "2", "3",];
 
 interface DataType {
   big_carousel: StaticImageData[];
@@ -42,15 +42,16 @@ const MediaGallery = ({ style }: any) => {
                   }}
                 >
                   {largeThumb.map((thumb: any, index: any) => (
-                    <a key={index} className="d-block" data-fancybox="img2" href={`/assets/images/listing/img_large_0${thumb}.jpg`}></a>
+                    <a key={index} className="d-block" data-fancybox="img2" href={`/assets/images/listing/listing-1/image-${thumb}.jpg`}></a>
                   ))}
                 </Fancybox>
               </div>
 
               <div className="carousel-inner">
-                {big_carousel.map((carousel, index) => (
+              {largeThumb.map((thumb: any, index: any) => (
                   <div key={index} className="carousel-item active">
-                    <Image src={carousel} alt="" className="w-100 border-20" />
+                    <Image src={`/assets/images/listing/listing-2/image-${thumb}.jpg`} alt="" className="w-100 border-20" width={4160} height={850}/>
+                    
                   </div>
                 ))}
               </div>
@@ -70,10 +71,10 @@ const MediaGallery = ({ style }: any) => {
 
         <div className="col-lg-2">
           <div className={`carousel-indicators position-relative p-15 w-100 h-100 ${style ? "" : "border-15 bg-white shadow4"}`}>
-            {small_carousel.map((carousel, i) => (
-              <button key={i} type="button" data-bs-target="#media_slider" data-bs-slide-to={`${i}`} className="active"
+          {largeThumb.map((thumb: any, index: any) => (
+              <button key={index} type="button" data-bs-target="#media_slider" data-bs-slide-to={`${index}`} className="active"
                 aria-current="true" aria-label="Slide 1">
-                <Image src={carousel} alt="" className="w-100 border-10" />
+                <Image src={`/assets/images/listing/listing-2/image-${thumb}.jpg`} alt="" className="w-100 border-10" width={100} height={100}/>
               </button>
             ))}
           </div>

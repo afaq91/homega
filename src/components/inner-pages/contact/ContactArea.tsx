@@ -39,7 +39,7 @@ const ContactArea = () => {
             <div className="row">
                <div className="col-xxl-9 col-xl-8 col-lg-10 m-auto">
                   <div className="title-one text-center wow fadeInUp">
-                     <h3>Questions? Feel Free to Reach Out Via Message.</h3>
+                     <h3>Feel Free to Reach Out</h3>
                   </div>
                </div>
             </div>

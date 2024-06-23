@@ -62,17 +62,18 @@
     // box-shadow: 0 13px 35px -12px rgb(35 35 35 / 10%);
     @include transition(0.4s);
     .gap-one {
-        padding: 33px 40px;
+        padding: 15px 18px;
     }
     .gap-two {
         padding: 24px 40px;
     }
     &.menu-overlay {
         position: absolute;
-        top:0;
-        right: 0;
-        left: 0;
-        background: transparent;
+        top:20px;
+        right: 30px;
+        left: 30px;
+        background: black;
+        border-radius: 15px;
     }
     &.menu-style-three{
         position: inherit;
@@ -80,8 +81,10 @@
     // Fixed Menu
     &.fixed {
         position: fixed;
-        left: 0;
-        right: 0;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        border-radius: 0px;
         background: black;
         box-shadow: 0 13px 35px -12px rgb(35 35 35 / 10%);
         .alert-wrapper {
