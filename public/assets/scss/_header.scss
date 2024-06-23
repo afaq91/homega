@@ -366,6 +366,9 @@
         top:50%;
         left: 50%;
         transform: translate(-50% , -50%);
+        padding:0px 65px !important;
+        background-color: #000;
+        border-radius: 15px;
     }
     .navbar .dropdown-menu {
         font-size: 1em;

@@ -11,12 +11,13 @@ import propertyShape_2 from "@/assets/images/shape/shape_38.svg"
 import propertyShape_3 from "@/assets/images/shape/shape_39.svg"
 
 
+
 const setting = {
    dots: false,
    arrows: false,
    centerPadding: '0px',
-   slidesToShow: 4,
-   slidesToScroll: 2,
+   slidesToShow: 3,
+   slidesToScroll: 1,
    autoplay: true,
    autoplaySpeed: 3000,
    responsive: [
@@ -85,7 +86,7 @@ const PropertyTwo = ({ style }: any) => {
                                        }}
                                     >
                                        {item.carousel_thumb.map((thumb, index) => (
-                                          <a key={index} className="d-block" data-fancybox="gallery" href={`/assets/images/listing/img_large_0${thumb.id}.jpg`}></a>
+                                          <a key={index} className="d-block" data-fancybox="gallery" href={`/assets/images/listing/listing-${item.id}/image-${thumb.id}.jpg`}></a>
                                        ))}
                                     </Fancybox>
                                  </div>
@@ -102,7 +103,7 @@ const PropertyTwo = ({ style }: any) => {
                                  ))}
                               </ul>
                               <div className="pl-footer top-border d-flex align-items-center justify-content-between">
-                                 <strong className="price fw-500 color-dark">${item.price}</strong>
+                                 <strong className="price fw-500 color-dark">AED {item.price}</strong>
                                  <ul className="style-none d-flex action-icons">
                                     <li><Link href="#"><i className="fa-light fa-heart"></i></Link></li>
                                     <li><Link href="#"><i className="fa-light fa-bookmark"></i></Link></li>

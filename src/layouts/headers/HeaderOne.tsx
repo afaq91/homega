@@ -12,6 +12,7 @@ import logo_1 from "@/assets/images/logo/logo_01.svg";
 
 
 
+
 const HeaderOne = ({ style }: any) => {
    const { sticky } = UseSticky();
    

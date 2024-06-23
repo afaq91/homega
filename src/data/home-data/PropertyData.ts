@@ -11,12 +11,26 @@ import property2Thumb_1 from "@/assets/images/listing/img_07.jpg";
 import property2Thumb_2 from "@/assets/images/listing/img_08.jpg";
 import property2Thumb_3 from "@/assets/images/listing/img_09.jpg";
 
-import property3Thumb_1 from "@/assets/images/listing/img_13.jpg";
-import property3Thumb_2 from "@/assets/images/listing/img_14.jpg";
-import property3Thumb_3 from "@/assets/images/listing/img_15.jpg";
-import property3Thumb_4 from "@/assets/images/listing/img_16.jpg";
+import property3Thumb_1 from "@/assets/images/listing/listing-1/image-1.jpeg";
+import property3Thumb_2 from "@/assets/images/listing/listing-2/image-1.jpg";
+import property3Thumb_3 from "@/assets/images/listing/listing-3/image-1.jpg";
 
-import propertyLargThumb_1 from "@/assets/images/listing/img_large_01.jpg";
+import propertyLargThumb_1_1 from "@/assets/images/listing/listing-1/image-1.jpeg";
+import propertyLargThumb_1_2 from "@/assets/images/listing/listing-1/image-2.jpg";
+import propertyLargThumb_1_3 from "@/assets/images/listing/listing-1/image-3.jpg";
+import propertyLargThumb_1_4 from "@/assets/images/listing/listing-1/image-4.jpg";
+
+
+
+import propertyLargThumb_2_1 from "@/assets/images/listing/listing-2/image-1.jpg";
+import propertyLargThumb_2_2 from "@/assets/images/listing/listing-2/image-2.jpg";
+import propertyLargThumb_2_3 from "@/assets/images/listing/listing-2/image-3.jpg";
+import propertyLargThumb_2_4 from "@/assets/images/listing/listing-2/image-4.jpg";
+import propertyLargThumb_2_5 from "@/assets/images/listing/listing-2/image-5.jpg";
+
+
+
+
 import propertyLargThumb_2 from "@/assets/images/listing/img_large_02.jpg";
 import propertyLargThumb_3 from "@/assets/images/listing/img_large_03.jpg";
 import propertyLargThumb_4 from "@/assets/images/listing/img_large_04.jpg";
@@ -50,6 +64,8 @@ interface DataType {
    price_text?: string;
    carousel?: string;
 }[];
+
+
 
 const property_data: DataType[] = [
    {
@@ -174,61 +190,39 @@ const property_data: DataType[] = [
       page: "home_3_property_2",
       tag: "FOR RENT",
       thumb:property3Thumb_1,
-      carousel_thumb: [{id:"1", img: propertyLargThumb_1}, {id:"2", img: propertyLargThumb_2 }, {id:"3", img: propertyLargThumb_3 }],
-      title: "Blueberry villa.",
-      address: "Mirpur 10, Stadium dhaka 1208",
+      carousel_thumb: [{id:"1", img: propertyLargThumb_1_1}, {id:"2", img: propertyLargThumb_1_2 }, {id:"3", img: propertyLargThumb_1_3}, {id:"4", img: propertyLargThumb_1_4}],
+      title: "Dubai Marina Appartment",
+      address: "Unit 2606 5242 Tower Dubai Marina",
       property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 1780 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o3 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o2 },],
       price: 34900,
-      carousel:"03",
+      carousel:"04",
    },
    {
       id: 2,
       page: "home_3_property_2",
       tag: "FOR SELL",
       thumb:property3Thumb_2,
-      carousel_thumb: [{id:"4", img: propertyLargThumb_4}, {id:"5", img: propertyLargThumb_5 }, {id:"6", img: propertyLargThumb_6 }],
-      title: "White House villa",
-      address: "California link road, ca, usa",
+      carousel_thumb: [{id:"1", img: propertyLargThumb_2_1}, {id:"2", img: propertyLargThumb_2_2 }, {id:"3", img: propertyLargThumb_2_3 }, {id:"4", img: propertyLargThumb_2_4 }, {id:"5", img: propertyLargThumb_2_5 }],
+      title: "Creek Harbor Appartment",
+      address: "M09 Creek Harbor",
       property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 2340 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o4 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o3 },],
       price: 28100,
       carousel:"03",
    },
+   
    {
       id: 3,
       page: "home_3_property_2",
       tag: "FOR SELL",
       thumb:property3Thumb_3,
-      carousel_thumb: [{id:"1", img: propertyLargThumb_1}, {id:"5", img: propertyLargThumb_5 }, {id:"3", img: propertyLargThumb_3 }, {id:"2", img: propertyLargThumb_2 }],
-      title: "Luxury villa in Dal lake.",
-      address: "Mirpur 10, Stadium",
-      property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 1857 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o3 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o1 },],
-      price: 42500,
-      carousel:"04",
-   },
-   {
-      id: 4,
-      page: "home_3_property_2",
-      tag: "FOR SELL",
-      thumb:property3Thumb_4,
       carousel_thumb: [{id:"4", img: propertyLargThumb_4}, {id:"6", img: propertyLargThumb_6 }, {id:"3", img: propertyLargThumb_3 }, {id:"2", img: propertyLargThumb_2 }],
-      title: "South Sun House",
-      address: "Mirpur 10, Stadium",
+      title: "Burj Vista tower",
+      address: "Burj Vista tower",
       property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 2450 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o4 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o3 },],
       price: 55500,
       carousel:"04",
    },
-   {
-      id: 5,
-      page: "home_3_property_2",
-      tag: "FOR SELL",
-      thumb:property3Thumb_2,
-      carousel_thumb: [{id:"4", img: propertyLargThumb_4}, {id:"5", img: propertyLargThumb_5 }, {id:"6", img: propertyLargThumb_6 }],
-      title: "White House villa",
-      address: "California link road, ca, usa",
-      property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 2340 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o4 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o3 },],
-      price: 28100,
-      carousel:"03",
-   },
+   
 
    // home_5
 ]
