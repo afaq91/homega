@@ -15,7 +15,7 @@ const HeroBanner = () => {
                         <h1 className="hero-heading">Discover Excellence<br></br> With Homega</h1>
                      </div>
                      <div className="ps-xxl-1 pt-15 wow fadeInRight">
-                        <p className="color-dark sub-heading mb-10 lg-mb-10">Redefining the art of real estate</p>
+                        <p className="color-dark sub-heading mb-10 lg-mb-10">Redefining The Art Of Real Estate</p>
                         <div className="d-flex flex-wrap justify-content-between align-items-start">
                            <div className="d-flex flex-column justify-content-center align-items-start mt-0">
                            <Link href="/contact" className="btn-five rounded-0 md mt-20"><span>Contact us</span> <i className="bi bi-arrow-up-right"></i></Link>  

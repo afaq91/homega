@@ -93,7 +93,7 @@ const PropertyTwo = ({ style }: any) => {
                               </div>
                            </div>
                            <div className="property-info pe-4 ps-4">
-                              <Link  href={`/listing_details_0${item.id}`} className="title tran3s">{item.title}</Link>
+                              <Link  href={`#`} className="title tran3s">{item.title}</Link>
                               <div className="address">{item.address}</div>
                               <ul className="style-none feature d-flex flex-wrap align-items-center justify-content-between">
                                  {item.property_info.map((info, i) => (

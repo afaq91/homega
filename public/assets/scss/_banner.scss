@@ -320,8 +320,8 @@
 .hero-banner-six {
     background: url(../images/media/image-5656.jpg) no-repeat center;
     background-size: cover;
-    padding-bottom: 300px !important;
-    padding-top: 300px !important;
+    padding-bottom: 300px;
+    padding-top: 300px;
     &:before {
         content: '';
         position: absolute;
@@ -337,7 +337,7 @@
         
     }
     .hero-heading {
-        font-size: 70px;
+        font-size: 80px;
         line-height: 1.2em;
         color:white !important;
         span img {
