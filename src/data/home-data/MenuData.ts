@@ -23,21 +23,21 @@ const menu_data: MenuItem[] = [
     {
         id: 1,
         has_dropdown: false,
-        title: "Home",
+        title: "HOME",
         link: "/",
         class_name:"mega",
     },
     {
         id: 2,
         has_dropdown: false,
-        title: "About",
+        title: "ABOUT",
         link: "/about_us_01",
         class_name:"nav-link",
     },
     {
         id: 3,
         has_dropdown: false,
-        title: "Listing",
+        title: "LISTINGS",
         link: "/listing_02",
         class_name:"mega",
     },
@@ -45,7 +45,7 @@ const menu_data: MenuItem[] = [
     {
         id: 4,
         has_dropdown: false,
-        title: "Contact",
+        title: "CONTACT",
         link: "/contact",
     },
 ];

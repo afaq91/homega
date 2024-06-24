@@ -10,13 +10,13 @@ const HeroBanner = () => {
          <div className="container container-large">
             <div className="position-relative">
                <div className="row">
-                  <div className="col-xxl-9 col-xl-6 col-lg-7">
+                  <div className="col-xxl-12 col-xl-6 col-lg-7 text-center">
                      <div className="position-relative pe-xxl-5 wow fadeInLeft">
-                        <h1 className="hero-heading">Discover Excellence<br></br> With Homega</h1>
+                        <h1 className="hero-heading">ELAVATING LUXURY LIVING</h1>
                      </div>
                      <div className="ps-xxl-1 pt-15 wow fadeInRight">
-                        <p className="color-dark sub-heading mb-10 lg-mb-10">Redefining The Art Of Real Estate</p>
-                        <div className="d-flex flex-wrap justify-content-between align-items-start">
+                        
+                        <div className="d-flex flex-wrap justify-content-center">
                            <div className="d-flex flex-column justify-content-center align-items-start mt-0">
                            <Link href="/contact" className="btn-five rounded-0 md mt-20"><span>Contact us</span> <i className="bi bi-arrow-up-right"></i></Link>  
                               

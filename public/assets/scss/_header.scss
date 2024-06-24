@@ -72,7 +72,7 @@
         top:20px;
         right: 30px;
         left: 30px;
-        background: #CDA474;
+        background: white;
         border-radius: 15px;
     }
     &.menu-style-three{
@@ -85,7 +85,7 @@
         right: 0px;
         top: 0px;
         border-radius: 0px;
-        background: #CDA474;
+        background: white;
         box-shadow: 0 13px 35px -12px rgb(35 35 35 / 10%);
         .alert-wrapper {
             display: none;
@@ -161,17 +161,17 @@
         font-weight: 500;
         font-size: 18px;
         line-height: initial;
-        color: white;
+        color: black;
         padding: 10px 0;
         margin: 0 18px;
         position: relative;
         @include transition(0.2s);
     }
     .nav-item:hover .nav-link {
-        color: $color-one;
+        color: white;
     }
     .nav-item .nav-link.active {
-        color: $color-one;
+        color: white;
     }
     &.white-vr {
         .nav-item .nav-link {color: #fff;}
@@ -370,7 +370,7 @@
         left: 50%;
         transform: translate(-50% , -50%);
         padding:0px 65px !important;
-        background-color: #000;
+        background-color: #CDA474;
         border-radius: 15px;
     }
     .navbar .dropdown-menu {
