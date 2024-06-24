@@ -12,7 +12,7 @@ import icon from "@/assets/images/icon/icon_46.svg"
 const ListingTwoArea = ({ style }: any) => {
 
    const itemsPerPage = 5;
-   const page = "listing_3";
+   const page = "listing_2";
 
    const {
       itemOffset,
