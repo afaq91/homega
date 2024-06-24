@@ -7,7 +7,7 @@ const BLockFeatureOne = () => {
             <div className="position-relative">
                <div className="row">
                   <div className="col-xxl-6 col-xl-7 col-lg-8">
-                     <div className="title-one mb-30 lg-mb-20 wow fadeInRight">
+                     <div className="title-one mb-30 lg-mb-20 wow fadeInUp">
                         <h3>We’r here to help you find properties.</h3>
                         <p className="fs-22">Over 100+ listings of apartments, villas and plots available.</p>
                      </div>

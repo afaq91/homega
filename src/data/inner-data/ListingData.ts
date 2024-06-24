@@ -28,6 +28,43 @@ import propertyLargeThumb_4 from "@/assets/images/listing/img_large_04.jpg";
 import propertyLargeThumb_5 from "@/assets/images/listing/img_large_05.jpg";
 import propertyLargeThumb_6 from "@/assets/images/listing/img_large_06.jpg";
 
+
+
+
+
+
+import property3Thumb_1 from "@/assets/images/listing/listing-1/image-1.jpeg";
+import property3Thumb_2 from "@/assets/images/listing/listing-2/image-1.jpg";
+import property3Thumb_3 from "@/assets/images/listing/listing-3/image-1.jpg";
+
+
+
+// Carousle Images
+
+import propertyLargThumb_1_1 from "@/assets/images/listing/listing-1/image-1.jpeg";
+import propertyLargThumb_1_2 from "@/assets/images/listing/listing-1/image-2.jpg";
+import propertyLargThumb_1_3 from "@/assets/images/listing/listing-1/image-3.jpg";
+import propertyLargThumb_1_4 from "@/assets/images/listing/listing-1/image-4.jpg";
+
+
+
+import propertyLargThumb_2_1 from "@/assets/images/listing/listing-2/image-1.jpg";
+import propertyLargThumb_2_2 from "@/assets/images/listing/listing-2/image-2.jpg";
+import propertyLargThumb_2_3 from "@/assets/images/listing/listing-2/image-3.jpg";
+import propertyLargThumb_2_4 from "@/assets/images/listing/listing-2/image-4.jpg";
+import propertyLargThumb_2_5 from "@/assets/images/listing/listing-2/image-5.jpg";
+
+
+
+import propertyLargThumb_3_1 from "@/assets/images/listing/listing-3/image-1.jpg";
+import propertyLargThumb_3_2 from "@/assets/images/listing/listing-3/image-2.jpg";
+import propertyLargThumb_3_3 from "@/assets/images/listing/listing-3/image-3.jpg";
+import propertyLargThumb_3_4 from "@/assets/images/listing/listing-3/image-4.jpg";
+import propertyLargThumb_3_5 from "@/assets/images/listing/listing-3/image-5.jpg";
+
+
+
+
 interface DataType {
    id: number;
    page: string;
@@ -60,336 +97,65 @@ interface DataType {
    amenities?: string[];
 }[];
 
+
 const listing_data: DataType[] = [
+   
    {
       id: 1,
       page: "listing_1",
       tag: "FOR RENT",
-      carousel_thumb: [{ img: propertyThumb_1, active: "active" }, { img: propertyThumb_2 }, { img: propertyThumb_3 }],
-      title: "Blueberry villa",
-      address: "Twin tower, Acapulco, Mexico",
-      location: "Acapulco, Mexico",
+      carousel_thumb: [{id:"1", img: propertyLargThumb_1_1 , active: "active" }, {id:"2", img: propertyLargThumb_1_2 , active: "active"  }, {id:"3", img: propertyLargThumb_1_3 , active: "active" }],
+      title: "Dubai Marina Appartment",
+      address: "Unit 2606 5242 Tower Dubai Marina",
+      location: "Dubai Marina, UAE",
       property_info: { sqft: 1370, bed: "03", bath: "02" },
-      price: 3280,
-      carousel: "1",
+      price: 34900,
+      carousel:"01",
       status: "Sell Villas",
       type: "Best Match",
       amenities: ["Garages", "Parking", "Wifi", "Elevator"],
    },
+   
+
+
    {
       id: 2,
       page: "listing_1",
       tag: "FOR SELL",
-      tag_bg: "sale",
-      carousel_thumb: [{ img: propertyThumb_2, active: "active" }, { img: propertyThumb_3 }, { img: propertyThumb_1 }],
-      title: "White House villa",
-      address: "Issaquah, Washington DC",
-      location: "Washington DC",
-      property_info: { sqft: 1270, bed: "04", bath: "01" },
-      data_delay_time: "0.1s",
-      price: 28100.00,
-      price_text: "m",
-      carousel: "2",
-      status: "Rent Industrial",
-      type: "Newest",
-      amenities: ["Swimming Pool", "Parking", "Wifi", "Fireplace", "Play Ground", "Elevator"],
+      carousel_thumb: [{id:"1", img: propertyLargThumb_2_1 , active: "active" }, {id:"2", img: propertyLargThumb_2_2 , active: "active"  }, {id:"3", img: propertyLargThumb_2_3 , active: "active"  }],
+      title: "Creek Harbor Appartment",
+      address: "M09 Creek Harbor",
+      location: "Dubai Creek Harbor, UAE",
+      property_info: { sqft: 1370, bed: "03", bath: "02" },
+      price: 28100,
+      carousel:"02",
+      status: "Sell Villas",
+      type: "Best Match",
+      amenities: ["Garages", "Parking", "Wifi", "Elevator"],
    },
+   
+
+   
    {
       id: 3,
       page: "listing_1",
       tag: "FOR SELL",
-      tag_bg: "sale",
-      carousel_thumb: [{ img: propertyThumb_3, active: "active" }, { img: propertyThumb_2 }, { img: propertyThumb_1 }],
-      title: "Luxury villa in Dal lake.",
-      address: "44 Elmessaha Street Dokki, Giza,Egypt",
-      location: "Giza, Egypt",
-      property_info: { sqft: 1170, bed: "01", bath: "04" },
-      price: 42500.00,
-      carousel: "3",
-      status: "Sell Houses",
-      type: "Best Seller",
-      amenities: ["Swimming Pool", "Parking", "Wifi", "Pet Friendly", "Ceiling Height", "Fireplace", "Play Ground", "Elevator"],
-   },
-   {
-      id: 4,
-      page: "listing_1",
-      tag: "FOR RENT",
-      carousel_thumb: [{ img: propertyThumb_4, active: "active" }, { img: propertyThumb_5 }, { img: propertyThumb_6 }],
-      title: "Blueberry villa",
-      address: "Alexanderstraße 40, Berlin, Germany.",
-      location: "Berlin, Germany",
-      property_info: { sqft: 1470, bed: "02", bath: "03" },
-      data_delay_time: "0.1s",
-      price: 3280,
-      price_text: "m",
-      carousel: "4",
-      status: "Rent Condos",
-      type: "Newest",
-      amenities: ["A/C & Heating", "Garages", "Parking", "Wifi", "Ceiling Height", "Fireplace", "Play Ground", "Elevator"],
-   },
-   {
-      id: 5,
-      page: "listing_1",
-      tag: "FOR SELL",
-      tag_bg: "sale",
-      carousel_thumb: [{ img: propertyThumb_5, active: "active" }, { img: propertyThumb_4 }, { img: propertyThumb_6 }],
-      title: "White House villa",
-      address: "Boulevard d'Alsace, Cannes, France",
-      location: "Cannes, France",
-      property_info: { sqft: 1570, bed: "01", bath: "02" },
-      price: 28100.00,
-      carousel: "5",
-      status: "Buy Apartments",
-      type: "Newest",
-      amenities: ["A/C & Heating", "Garages", "Garden", "Fireplace", "Play Ground", "Elevator"],
-   },
-   {
-      id: 6,
-      page: "listing_1",
-      tag: "FOR RENT",
-      carousel_thumb: [{ img: propertyThumb_6, active: "active" }, { img: propertyThumb_5 }, { img: propertyThumb_4 }],
-      title: "Luxury villa in Dal lake.",
-      address: "110015. Taluk, New Delhi, India",
-      location: "Delhi, India",
+      carousel_thumb: [{id:"1", img: propertyLargThumb_3_1 , active: "active" }, {id:"2", img: propertyLargThumb_3_2 , active: "active"  }, {id:"3", img: propertyLargThumb_3_3 , active: "active"  }],
+      title: "Burj Vista tower",
+      address: "Burj Vista tower",
+      location: "Dubai Business Bay, UAE",
       property_info: { sqft: 1370, bed: "03", bath: "02" },
-      data_delay_time: "0.1s",
-      price: 42500.00,
-      carousel: "6",
-      status: "Sell Villas",
-      type: "Best Match",
-      amenities: ["Disabled Access", "Swimming Pool", "Parking", "Ceiling Height", "Fireplace",],
-   },
-   {
-      id: 7,
-      page: "listing_1",
-      tag: "FOR SELL",
-      tag_bg: "sale",
-      carousel_thumb: [{ img: propertyThumb_7, active: "active" }, { img: propertyThumb_2 }, { img: propertyThumb_1 }],
-      title: "Luxury villa in Dal lake.",
-      address: "Muza link road, Acapulco, Mexico",
-      location: "Acapulco, Mexico",
-      property_info: { sqft: 1470, bed: "01", bath: "04" },
-      price: 42500.00,
-      price_text: "m",
-      carousel: "3",
-      status: "Rent Industrial",
-      type: "Best Seller",
-      amenities: ["Garden", "Parking", "Wifi", "Pet Friendly", "Play Ground", "Elevator"],
-   },
-   {
-      id: 8,
-      page: "listing_1",
-      tag: "FOR RENT",
-      carousel_thumb: [{ img: propertyThumb_8, active: "active" }, { img: propertyThumb_5 }, { img: propertyThumb_6 }],
-      title: "Blueberry villa",
-      address: "Miramar, Playa. Ciudad de La Habana, Cuba.",
-      location: "Havana, Cuba",
-      property_info: { sqft: 1170, bed: "04", bath: "02" },
-      data_delay_time: "0.1s",
-      price: 3280,
-      carousel: "4",
-      status: "Sell Houses",
-      type: "Best Seller",
-      amenities: ["A/C & Heating", "Fireplace", "Play Ground", "Elevator"],
-   },
-   {
-      id: 9,
-      page: "listing_1",
-      tag: "FOR SELL",
-      tag_bg: "sale",
-      carousel_thumb: [{ img: propertyThumb_5, active: "active" }, { img: propertyThumb_4 }, { img: propertyThumb_6 }],
-      title: "White House villa",
-      address: "Boulevard d'Alsace, Cannes, France",
-      location: "Cannes, France",
-      property_info: { sqft: 1070, bed: "02", bath: "03" },
-      price: 28100.00,
-      carousel: "5",
-      status: "Buy Apartments",
-      type: "Newest",
-      amenities: ["A/C & Heating", "Garages", "Garden", "Fireplace", "Play Ground", "Elevator"],
-   },
-   {
-      id: 10,
-      page: "listing_1",
-      tag: "FOR RENT",
-      carousel_thumb: [{ img: propertyThumb_6, active: "active" }, { img: propertyThumb_5 }, { img: propertyThumb_4 }],
-      title: "Luxury villa in Dal lake.",
-      address: "110015. Taluk, New Delhi, India",
-      location: "Delhi, India",
-      property_info: { sqft: 1370, bed: "03", bath: "03" },
-      data_delay_time: "0.1s",
-      price: 42500.00,
-      carousel: "6",
-      status: "Sell Villas",
-      type: "Best Match",
-      amenities: ["Disabled Access", "Swimming Pool", "Parking", "Ceiling Height", "Fireplace",],
-   },
-   {
-      id: 11,
-      page: "listing_1",
-      tag: "FOR SELL",
-      tag_bg: "sale",
-      carousel_thumb: [{ img: propertyThumb_7, active: "active" }, { img: propertyThumb_2 }, { img: propertyThumb_1 }],
-      title: "Luxury villa in Dal lake.",
-      address: "Muza link road, Acapulco, Mexico",
-      location: "Acapulco, Mexico",
-      property_info: { sqft: 1370, bed: "03", bath: "03" },
-      price: 42500.00,
-      price_text: "m",
-      carousel: "3",
-      status: "Rent Industrial",
-      type: "Best Seller",
-      amenities: ["Garden", "Parking", "Wifi", "Pet Friendly", "Play Ground", "Elevator"],
-   },
-   {
-      id: 12,
-      page: "listing_1",
-      tag: "FOR RENT",
-      carousel_thumb: [{ img: propertyThumb_8, active: "active" }, { img: propertyThumb_5 }, { img: propertyThumb_6 }],
-      title: "Blueberry villa",
-      address: "Miramar, Playa. Ciudad de La Habana, Cuba.",
-      location: "Havana, Cuba",
-      property_info: { sqft: 1070, bed: "04", bath: "04" },
-      data_delay_time: "0.1s",
-      price: 3280,
-      carousel: "4",
-      status: "Sell Houses",
-      type: "Best Seller",
-      amenities: ["A/C & Heating", "Fireplace", "Play Ground", "Elevator"],
-   },
-   {
-      id: 13,
-      page: "listing_1",
-      tag: "FOR RENT",
-      carousel_thumb: [{ img: propertyThumb_1, active: "active" }, { img: propertyThumb_2 }, { img: propertyThumb_3 }],
-      title: "Blueberry villa",
-      address: "Twin tower, Acapulco, Mexico",
-      location: "Acapulco, Mexico",
-      property_info: { sqft: 1170, bed: "02", bath: "02" },
-      price: 3280,
-      carousel: "1",
+      price: 55500,
+      carousel:"03",
       status: "Sell Villas",
       type: "Best Match",
       amenities: ["Garages", "Parking", "Wifi", "Elevator"],
    },
-   {
-      id: 14,
-      page: "listing_1",
-      tag: "FOR SELL",
-      tag_bg: "sale",
-      carousel_thumb: [{ img: propertyThumb_2, active: "active" }, { img: propertyThumb_3 }, { img: propertyThumb_1 }],
-      title: "White House villa",
-      address: "Issaquah, Washington DC",
-      location: "Washington DC",
-      property_info: { sqft: 1470, bed: "03", bath: "03" },
-      data_delay_time: "0.1s",
-      price: 28100.00,
-      price_text: "m",
-      carousel: "2",
-      status: "Rent Industrial",
-      type: "Newest",
-      amenities: ["Swimming Pool", "Parking", "Wifi", "Fireplace", "Play Ground", "Elevator"],
-   },
-   {
-      id: 15,
-      page: "listing_1",
-      tag: "FOR SELL",
-      tag_bg: "sale",
-      carousel_thumb: [{ img: propertyThumb_3, active: "active" }, { img: propertyThumb_2 }, { img: propertyThumb_1 }],
-      title: "Luxury villa in Dal lake.",
-      address: "44 Elmessaha Street Dokki, Giza,Egypt",
-      location: "Giza, Egypt",
-      property_info: { sqft: 1370, bed: "01", bath: "02" },
-      price: 42500.00,
-      carousel: "3",
-      status: "Sell Houses",
-      type: "Best Seller",
-      amenities: ["Swimming Pool", "Parking", "Wifi", "Pet Friendly", "Ceiling Height", "Fireplace", "Play Ground", "Elevator"],
-   },
-   {
-      id: 16,
-      page: "listing_1",
-      tag: "FOR RENT",
-      carousel_thumb: [{ img: propertyThumb_4, active: "active" }, { img: propertyThumb_5 }, { img: propertyThumb_6 }],
-      title: "Blueberry villa",
-      address: "Alexanderstraße 40, Berlin, Germany.",
-      location: "Berlin, Germany",
-      property_info: { sqft: 1570, bed: "01", bath: "03" },
-      data_delay_time: "0.1s",
-      price: 3280,
-      price_text: "m",
-      carousel: "4",
-      status: "Rent Condos",
-      type: "Newest",
-      amenities: ["A/C & Heating", "Garages", "Parking", "Wifi", "Ceiling Height", "Fireplace", "Play Ground", "Elevator"],
-   },
-   {
-      id: 17,
-      page: "listing_1",
-      tag: "FOR RENT",
-      carousel_thumb: [{ img: propertyThumb_1, active: "active" }, { img: propertyThumb_2 }, { img: propertyThumb_3 }],
-      title: "Blueberry villa",
-      address: "Twin tower, Acapulco, Mexico",
-      location: "Acapulco, Mexico",
-      property_info: { sqft: 1670, bed: "04", bath: "02" },
-      price: 3280,
-      carousel: "1",
-      status: "Sell Villas",
-      type: "Best Match",
-      amenities: ["Garages", "Parking", "Wifi", "Elevator"],
-   },
-   {
-      id: 18,
-      page: "listing_1",
-      tag: "FOR SELL",
-      tag_bg: "sale",
-      carousel_thumb: [{ img: propertyThumb_2, active: "active" }, { img: propertyThumb_3 }, { img: propertyThumb_1 }],
-      title: "White House villa",
-      address: "Issaquah, Washington DC",
-      location: "Washington DC",
-      data_delay_time: "0.1s",
-      property_info: { sqft: 1370, bed: "03", bath: "04" },
-      price: 28100.00,
-      price_text: "m",
-      carousel: "2",
-      status: "Rent Industrial",
-      type: "Newest",
-      amenities: ["Swimming Pool", "Parking", "Wifi", "Fireplace", "Play Ground", "Elevator"],
-   },
-   {
-      id: 19,
-      page: "listing_1",
-      tag: "FOR SELL",
-      tag_bg: "sale",
-      carousel_thumb: [{ img: propertyThumb_3, active: "active" }, { img: propertyThumb_2 }, { img: propertyThumb_1 }],
-      title: "Luxury villa in Dal lake.",
-      address: "44 Elmessaha Street Dokki, Giza,Egypt",
-      location: "Giza, Egypt",
-      property_info: { sqft: 1270, bed: "01", bath: "02" },
-      price: 42500.00,
-      carousel: "3",
-      status: "Sell Houses",
-      type: "Best Seller",
-      amenities: ["Swimming Pool", "Parking", "Wifi", "Pet Friendly", "Ceiling Height", "Fireplace", "Play Ground", "Elevator"],
-   },
-   {
-      id: 20,
-      page: "listing_1",
-      tag: "FOR RENT",
-      carousel_thumb: [{ img: propertyThumb_4, active: "active" }, { img: propertyThumb_5 }, { img: propertyThumb_6 }],
-      title: "Blueberry villa",
-      address: "Alexanderstraße 40, Berlin, Germany.",
-      location: "Berlin, Germany",
-      property_info: { sqft: 1370, bed: "04", bath: "01" },
-      data_delay_time: "0.1s",
-      price: 3280,
-      price_text: "m",
-      carousel: "4",
-      status: "Rent Condos",
-      type: "Newest",
-      amenities: ["A/C & Heating", "Garages", "Parking", "Wifi", "Ceiling Height", "Fireplace", "Play Ground", "Elevator"],
-   },
+   
 
+
+
+   
    // listing_2
 
    {

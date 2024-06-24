@@ -9,6 +9,7 @@ interface DataType {
    page: string;
 }
 
+
 const UseShortedProperty = ({ itemsPerPage, page }: DataType) => {
 
    let all_property = listing_data;
