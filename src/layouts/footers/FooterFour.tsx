@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import footerLogo from "@/assets/images/logo/logo_06.svg"
+import footerLogo from "@/assets/images/logo/logo_01.png"
 import footerShape from "@/assets/images/assets/ils_06.svg"
 import Link from "next/link"
 import footer_data from "@/data/home-data/FooterData"
@@ -15,7 +15,7 @@ const FooterFour = () => {
                      <div className="footer-intro">
                         <div className="logo mb-20">
                            <Link href="/">
-                              <Image src={footerLogo} alt="" />
+                              <Image src={footerLogo} alt="" width={220}/>
                            </Link>
                         </div>
                         <p className="mb-30 xs-mb-20">11910 Clyde Rapid Suite 210, Willyand, Virginia, United States</p>

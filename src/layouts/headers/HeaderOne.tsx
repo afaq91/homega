@@ -7,7 +7,7 @@ import LoginModal from "@/modals/LoginModal"
 import { useState } from "react"
 import { useEffect } from "react"
 import { useRouter } from 'next/router';
-import logo_1 from "@/assets/images/logo/logo_01.svg";
+import logo_1 from "@/assets/images/logo/logo_01.png";
 
 
 
@@ -27,7 +27,7 @@ const HeaderOne = ({ style }: any) => {
                   <div className="d-flex align-items-center justify-content-between">
                      <div className="logo order-lg-0">
                         <Link href="/" className="d-flex align-items-center">
-                           <Image src={logo_1} alt="" />
+                           <Image src={logo_1} alt="" width={220}/>
                         </Link>
                      </div>
                      <div className="right-widget ms-auto ms-lg-0 me-3 me-lg-0 order-lg-3">

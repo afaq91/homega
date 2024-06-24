@@ -2,7 +2,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import footerLogo from "@/assets/images/logo/logo_07.svg"
+import footerLogo from "@/assets/images/logo/logo_01.png"
 import footer_data from "@/data/home-data/FooterData"
 
 const FooterFive = () => {
@@ -15,9 +15,9 @@ const FooterFive = () => {
                <div className="row">
                   <div className="col-xl-3 col-lg-4 mb-60">
                      <div className="footer-intro">
-                        <div className="logo mb-20">
+                        <div className="logo mb-20 d-none">
                            <Link href="/">
-                              <Image src={footerLogo} alt="" />
+                              <Image src={footerLogo} alt="" width={220}/>
                            </Link>
                         </div>
                         <p className="mb-45 md-mb-20">11910 Clyde Rapid Suite 210, Willyand, Virginia, United States</p>
