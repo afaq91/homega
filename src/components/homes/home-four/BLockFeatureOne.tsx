@@ -20,25 +20,25 @@ const BLockFeatureOne = () => {
 
 <div className="customiconcontainer">
  <div className="iconcustom">  
-<img alt="" loading="lazy" width="27" height="25" decoding="async" data-nimg="1" className="lazy-img" src={feature6Icon_1}></img>
+<img alt="" loading="lazy" width="27" height="25" decoding="async" data-nimg="1" className="lazy-img" src="../assets/images/icon/icon_35.svg"></img>
 </div>
-<h5 className="mt-35 mb-20">Buy</h5>
-</div>
-
-
-<div className="customiconcontainer">
-<div className="iconcustom">  
-<img alt="" loading="lazy" width="29" height="27" decoding="async" data-nimg="1" className="lazy-img" src={feature6Icon_2}></img>
-</div>
-<h5 className="mt-35 mb-20">Rent</h5>
+<h5 className="mt-15 mb-20">Buy</h5>
 </div>
 
 
 <div className="customiconcontainer">
 <div className="iconcustom">  
-<img alt="" loading="lazy" width="28" height="27" decoding="async" data-nimg="1" className="lazy-img" src={feature6Icon_3}></img>
+<img alt="" loading="lazy" width="29" height="27" decoding="async" data-nimg="1" className="lazy-img" src="../assets/images/icon/icon_36.svg"></img>
 </div>
-<h5 className="mt-35 mb-20">Sell</h5>
+<h5 className="mt-15 mb-20">Rent</h5>
+</div>
+
+
+<div className="customiconcontainer">
+<div className="iconcustom">  
+<img alt="" loading="lazy" width="28" height="27" decoding="async" data-nimg="1" className="lazy-img" src="../assets/images/icon/icon_37.svg"></img>
+</div>
+<h5 className="mt-15 mb-20">Sell</h5>
 </div>
 
 
