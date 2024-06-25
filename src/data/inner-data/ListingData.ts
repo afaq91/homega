@@ -106,7 +106,7 @@ const listing_data: DataType[] = [
       tag: "FOR RENT",
       carousel_thumb: [{id:"1", img: propertyLargThumb_1_1 , active: "active" }, {id:"2", img: propertyLargThumb_1_2 , active: "active"  }, {id:"3", img: propertyLargThumb_1_3 , active: "active" }],
       title: "Dubai Marina Appartment",
-      address: "Unit 2606 5242 Tower Dubai Marina",
+      address: "Tower Dubai Marina",
       location: "Dubai Marina, UAE",
       property_info: { sqft: 1370, bed: "03", bath: "02" },
       data_delay_time: "0.1s",
@@ -126,7 +126,7 @@ const listing_data: DataType[] = [
       tag: "FOR SELL",
       carousel_thumb: [{id:"1", img: propertyLargThumb_2_1 , active: "active" }, {id:"2", img: propertyLargThumb_2_2 , active: "active"  }, {id:"3", img: propertyLargThumb_2_3 , active: "active"  }],
       title: "Creek Harbor Appartment",
-      address: "M09 Creek Harbor",
+      address: "Creek Harbor",
       location: "Dubai Creek Harbor, UAE",
       property_info: { sqft: 1370, bed: "03", bath: "02" },
       data_delay_time: "0.1s",
@@ -160,71 +160,7 @@ const listing_data: DataType[] = [
    
 
 
-
    
-   // listing_2
-
-   {
-      id: 1,
-      page: "listing_2",
-      tag: "FOR RENT",
-      carousel_thumb: [{id:"1", img: propertyLargThumb_1_1 , active: "active" }, {id:"2", img: propertyLargThumb_1_2 , active: "active"  }, {id:"3", img: propertyLargThumb_1_3 , active: "active" }],
-      title: "Dubai Marina Appartment",
-      address: "Unit 2606 5242 Tower Dubai Marina",
-      location: "Dubai Marina, UAE",
-      property_info: { sqft: 1370, bed: "03", bath: "02" },
-      data_delay_time: "0.1s",
-      price: 3280,
-      price_text: "m",
-      carousel: "1",
-      status: "Rent Condos",
-      type: "Newest",
-      amenities: ["A/C & Heating", "Garages", "Parking", "Wifi", "Ceiling Height", "Fireplace", "Play Ground", "Elevator"],
-   },
-   
-
-
-   {
-      id: 2,
-      page: "listing_2",
-      tag: "FOR SELL",
-      carousel_thumb: [{id:"1", img: propertyLargThumb_2_1 , active: "active" }, {id:"2", img: propertyLargThumb_2_2 , active: "active"  }, {id:"3", img: propertyLargThumb_2_3 , active: "active"  }],
-      title: "Creek Harbor Appartment",
-      address: "M09 Creek Harbor",
-      location: "Dubai Creek Harbor, UAE",
-      property_info: { sqft: 1370, bed: "03", bath: "02" },
-      data_delay_time: "0.1s",
-      price: 3280,
-      price_text: "m",
-      carousel: "2",
-      status: "Rent Condos",
-      type: "Newest",
-      amenities: ["A/C & Heating", "Garages", "Parking", "Wifi", "Ceiling Height", "Fireplace", "Play Ground", "Elevator"],
-   },
-   
-
-   
-   {
-      id: 3,
-      page: "listing_2",
-      tag: "FOR SELL",
-      carousel_thumb: [{id:"1", img: propertyLargThumb_3_1 , active: "active" }, {id:"2", img: propertyLargThumb_3_2 , active: "active"  }, {id:"3", img: propertyLargThumb_3_3 , active: "active"  }],
-      title: "Burj Vista tower",
-      address: "Burj Vista tower",
-      location: "Dubai Business Bay, UAE",
-      property_info: { sqft: 1370, bed: "03", bath: "02" },
-      data_delay_time: "0.1s",
-      price: 3280,
-      price_text: "m",
-      carousel: "3",
-      status: "Rent Condos",
-      type: "Newest",
-      amenities: ["A/C & Heating", "Garages", "Parking", "Wifi", "Ceiling Height", "Fireplace", "Play Ground", "Elevator"],
-   },
-
-
-
-
 
    // listing_3
 

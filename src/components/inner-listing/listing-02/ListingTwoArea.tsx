@@ -42,7 +42,7 @@ const ListingTwoArea = ({ style }: any) => {
       <div className={`property-listing-six ${style ? "pt-150 xl-pt-100 pb-170 xl-pb-120" : "bg-pink-two pt-110 md-pt-80 pb-150 xl-pb-120 mt-150 xl-mt-120"}`}>
          <div className="container container-large">
             <div className="row">
-               <div className="col-lg-8">
+               <div className="col-lg-12">
                   <div className="ps-xxl-5">
                      <div className="listing-header-filter d-sm-flex justify-content-between align-items-center mb-40 lg-mb-30">
                         <div>Showing <span className="color-dark fw-500">{itemOffset + 1}–{itemOffset + currentItems.length}</span> of <span
@@ -85,7 +85,7 @@ const ListingTwoArea = ({ style }: any) => {
                                        }}
                                     >
                                        {item.carousel_thumb.map((thumb: any, index: any) => (
-                                          <a key={index} className="d-block" data-fancybox="gallery2" href={`/assets/images/listing/img_large_0${thumb.id}.jpg`}></a>
+                                          <a key={index} className="d-block" data-fancybox="gallery2" href={`/assets/images/listing/listing-${item.id}/image-${thumb.id}.jpg`}></a>
                                        ))}
                                     </Fancybox>
                                  </div>
@@ -131,25 +131,7 @@ const ListingTwoArea = ({ style }: any) => {
                   </div>
                </div>
 
-               <div className="col-lg-4 order-lg-first">
-                  <div className="advance-search-panel dot-bg md-mt-80">
-                     <div className="main-bg">
-                        <DropdownOne
-                           handleSearchChange={handleSearchChange}
-                           handleBedroomChange={handleBedroomChange}
-                           handleBathroomChange={handleBathroomChange}
-                           handlePriceChange={handlePriceChange}
-                           maxPrice={maxPrice}
-                           priceValue={priceValue}
-                           handleResetFilter={handleResetFilter}
-                           selectedAmenities={selectedAmenities}
-                           handleAmenityChange={handleAmenityChange}
-                           handleLocationChange={handleLocationChange}
-                           handleStatusChange={handleStatusChange}
-                        />
-                     </div>
-                  </div>
-               </div>
+               
             </div>
          </div>
       </div>
