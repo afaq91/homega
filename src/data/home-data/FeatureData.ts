@@ -115,23 +115,23 @@ const feature_data: DataType[] = [
       id: 1,
       page: "home_1_feature_3",
       icon: feature3Icon_1,
-      title: "Create Account",
-      desc: "It’s very easy to open an account and start your journey.",
+      title: "Contact Us",
+      desc: "",
    },
    {
       id: 2,
       page: "home_1_feature_3",
       class_name:"arrow position-relative",
       icon: feature3Icon_2,
-      title: "Find Home",
-      desc: "Complete your profile with all the info to get attention of client.",
+      title: "Find Property",
+      desc: "",
    },
    {
       id: 3,
       page: "home_1_feature_3",
       icon: feature3Icon_3,
       title: "Quick Process",
-      desc: "Apply & get your preferable jobs with all the requirements and get it.",
+      desc: "",
    },
 
    // home_two_feature_1

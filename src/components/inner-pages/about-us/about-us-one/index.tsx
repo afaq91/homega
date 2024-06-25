@@ -8,6 +8,7 @@ import AgentArea from "@/components/homes/home-one/AgentArea"
 import Brand from "./Brand"
 import FooterFive from "@/layouts/footers/FooterFive"
 import FancyBanner from "@/components/common/FancyBanner"
+import FancyBannerThree from '@/components/homes/home-one/FancyBannerThree';
 
 const AboutUsOne = () => {
    return (
@@ -19,12 +20,12 @@ const AboutUsOne = () => {
          <BLockFeatureFive style={true} />
          {/* <Feedback style={true} />
          <AgentArea style={false} /> */}
-         <Brand />
-         <FancyBanner style={false} />
+        <FancyBannerThree />
          <FooterFive />
       </>
    )
 }
+
 
 export default AboutUsOne
 

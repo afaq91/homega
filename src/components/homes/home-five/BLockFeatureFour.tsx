@@ -8,7 +8,7 @@ import featureImg_4 from "@/assets/images/assets/screen_07.png";
 
 const BLockFeatureFour = () => {
    return (
-      <div className="block-feature-ten mt-200 xl-mt-150 lg-mt-110">
+      <div className="block-feature-ten mt-200 xl-mt-150 lg-mt-110 mb-200">
          <div className="container container-large">
             <div className="row">
                <div className="col-lg-6 ms-auto order-lg-last wow fadeInRight">

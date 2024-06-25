@@ -10,6 +10,7 @@ import AddressBanner from '../home-four/AddressBanner';
 import FancyBannerThree from '../home-one/FancyBannerThree';
 import FooterFive from '@/layouts/footers/FooterFive';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation'
+import FancyBanner from "@/components/common/FancyBanner"
 
 
 const HomeSix = () => {
@@ -22,6 +23,7 @@ const HomeSix = () => {
       <BLockFeatureOne />
       <PropertyTwo style={false} />
       <BLockFeatureFour />
+      <FancyBanner style={false} />
       <AddressBanner style={false} />
       <FancyBannerThree />
       <FooterFive />
@@ -30,3 +32,4 @@ const HomeSix = () => {
 };
 
 export default HomeSix;
+
