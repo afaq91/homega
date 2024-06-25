@@ -1,5 +1,8 @@
 'use-client'
 import FeatureOne from "@/components/common/FeatureOne"
+import feature6Icon_1 from "@/assets/images/icon/icon_35.svg";
+import feature6Icon_2 from "@/assets/images/icon/icon_36.svg";
+import feature6Icon_3 from "@/assets/images/icon/icon_37.svg";
 
 const BLockFeatureOne = () => {
    return (
@@ -17,7 +20,7 @@ const BLockFeatureOne = () => {
 
 <div className="customiconcontainer">
  <div className="iconcustom">  
-<img alt="" loading="lazy" width="27" height="25" decoding="async" data-nimg="1" className="lazy-img" src="/_next/static/media/icon_35.944d9cf9.svg"></img>
+<img alt="" loading="lazy" width="27" height="25" decoding="async" data-nimg="1" className="lazy-img" src={feature6Icon_1}></img>
 </div>
 <h5 className="mt-35 mb-20">Buy</h5>
 </div>
@@ -25,7 +28,7 @@ const BLockFeatureOne = () => {
 
 <div className="customiconcontainer">
 <div className="iconcustom">  
-<img alt="" loading="lazy" width="29" height="27" decoding="async" data-nimg="1" className="lazy-img" src="/_next/static/media/icon_36.09ff6d3d.svg"></img>
+<img alt="" loading="lazy" width="29" height="27" decoding="async" data-nimg="1" className="lazy-img" src={feature6Icon_2}></img>
 </div>
 <h5 className="mt-35 mb-20">Rent</h5>
 </div>
@@ -33,13 +36,14 @@ const BLockFeatureOne = () => {
 
 <div className="customiconcontainer">
 <div className="iconcustom">  
-<img alt="" loading="lazy" width="28" height="27" decoding="async" data-nimg="1" className="lazy-img" src="/_next/static/media/icon_37.f6e71d7d.svg"></img>
+<img alt="" loading="lazy" width="28" height="27" decoding="async" data-nimg="1" className="lazy-img" src={feature6Icon_3}></img>
 </div>
 <h5 className="mt-35 mb-20">Sell</h5>
 </div>
 
 
 </div>
+
 
                   </div>
                </div>
