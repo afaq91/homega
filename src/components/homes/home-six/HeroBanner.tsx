@@ -6,7 +6,9 @@ import DropdownSix from "@/components/search-dropdown/home-dropdown/DropdownSix"
 
 const HeroBanner = () => {
    return (
+      
       <div className="hero-banner-six z-2 pt-200 lg-pt-150">
+      
          <div className="container container-large">
             <div className="position-relative">
                <div className="row">

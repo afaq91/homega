@@ -89,7 +89,7 @@ const footer_data: DataType[] = [
       widget_class: "col-lg-3 ms-auto",
       widget_class2: "ps-xl-5",
       widget_title: "Quick Links",
-      footer_link: [{ link: "/", link_title: "Home" }, { link: "/about_us_01", link_title: "About Us" }, { link: "/contact", link_title: "Contact" },]
+      footer_link: [{ link: "/", link_title: "Home" }, { link: "/about_us_01", link_title: "About Us" }, { link: "/contact", link_title: "Contact" },{ link: "/service_01", link_title: "Transactions" }]
    },
    // {
    //    id: 2,

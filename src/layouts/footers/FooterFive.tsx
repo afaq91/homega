@@ -13,6 +13,7 @@ const FooterFive = () => {
          <div className="container container-large">
             <div className="bg-wrapper position-relative z-1">
                <div className="row">
+               
                   <div className="col-xl-3 col-lg-4 mb-60">
                      <div className="footer-intro">
                         <div className="logo mb-20 d-none">

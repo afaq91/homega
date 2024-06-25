@@ -1,5 +1,5 @@
 import BreadcrumbOne from "@/components/common/breadcrumb/BreadcrumbOne"
-import FooterFour from "@/layouts/footers/FooterFour"
+import FooterFive from "@/layouts/footers/FooterFive"
 import HeaderOne from "@/layouts/headers/HeaderOne"
 import BlockFeatureOne from "./BlockFeatureOne"
 import HomeBLockFeatureOne from "@/components/homes/home-one/BLockFeatureOne"
@@ -12,16 +12,15 @@ import FancyBannerCommon from "@/components/common/FancyBanner"
 const ServiceOne = () => {
    return (
       <>
-         <HeaderOne style={true} />
-         <BreadcrumbOne title="Our Services" link="#" link_title="Pages" sub_title="Services" style={false} />
-         <BlockFeatureOne/>
-         <HomeBLockFeatureOne />
-         <BlockFeatureTwo style={false} />
-         <FancyBanner />
-         <Feedback/>
-         <BLockFeatureTwo style={true} />
-         <FancyBannerCommon />
-         <FooterFour />
+         <HeaderOne/>
+         <div className="position-relative">
+         <iframe width="700" height="400" src="https://www.propertyfinder.ae/en/transactions/buy/dubai" frameBorder="0" className="transac">
+         
+         </iframe>
+         
+         </div>
+         
+         <FooterFive />
       </>
    )
 }
