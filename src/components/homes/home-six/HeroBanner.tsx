@@ -20,7 +20,7 @@ const HeroBanner = () => {
                         
                         <div className="d-flex flex-wrap justify-content-center">
                            <div className="d-flex flex-column justify-content-center align-items-start mt-0">
-                           <Link href="/contact" className="btn-five rounded-0 md mt-20"><span>Contact us</span> <i className="bi bi-arrow-up-right"></i></Link>  
+                           <Link href="/contact" className="btn-five rounded-0 md mt-20"><span>Contact Us</span> <i className="bi bi-arrow-up-right"></i></Link>  
                               
                            </div>
                            

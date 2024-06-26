@@ -80,7 +80,7 @@
         top:20px;
         right: 30px;
         left: 30px;
-        background: white;
+        background: -webkit-linear-gradient(transparent, transparent), url(https://addisonlegere.com/wp-content/uploads/2017/08/Gold_background2.jpg) repeat;
         border-radius: 15px;
     }
     &.menu-style-three{
@@ -378,7 +378,7 @@
         left: 50%;
         transform: translate(-50% , -50%);
         padding:0px 5px !important;
-        background-color: #CDA474;
+        background: -webkit-linear-gradient(transparent, transparent), url(https://addisonlegere.com/wp-content/uploads/2017/08/Gold_background2.jpg) repeat;
         border-radius: 15px;
     }
     .navbar .dropdown-menu {
