@@ -14,6 +14,7 @@ const ServiceOne = () => {
       <>
          <HeaderOne/>
          <div className="position-relative">
+         <iframe width="700" height="400" src="https://www.dubaipulse.gov.ae/dataset/dld_transactions-open/resource/a37511b0-ea36-485d-bccd-2d6cb24507e7/view/31fa9b21-8036-414e-a605-48f68845eb40" frameBorder="0"></iframe>
          <iframe width="700" height="400" src="https://www.propertyfinder.ae/en/transactions/buy/dubai" frameBorder="0" className="transac">
          
          </iframe>
