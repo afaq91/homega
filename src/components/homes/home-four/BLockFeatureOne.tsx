@@ -6,7 +6,7 @@ import feature6Icon_3 from "@/assets/images/icon/icon_37.svg";
 
 const BLockFeatureOne = () => {
    return (
-      <div className="block-feature-nine bg-pink-two image-bg position-relative z-1 mt-0 xl-mt-120 pt-85 pb-110 xl-pb-80">
+      <div className="block-feature-nine bg-pink-two image-bg position-relative z-1 mt-0 xl-mt-0 pt-85 pb-110 xl-pb-80">
          <div className="container container-large">
             <div className="position-relative">
                <div className="row">
