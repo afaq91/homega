@@ -7,7 +7,7 @@ import LoginModal from "@/modals/LoginModal"
 import { useState } from "react"
 import { useEffect } from "react"
 import { useRouter } from 'next/router';
-import logo_1 from "@/assets/images/logo/logo_01.png";
+import logo_1 from "@/assets/images/logo/logo_1.png";
 
 
 
